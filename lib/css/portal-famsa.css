@@ -177,7 +177,7 @@ body{
   background: #3f4f62;
 }
 .page-header.navbar .menu-toggler {
-  background-image: url(../../img/sidebar_toggler_icon_darkblue.png);
+  background-image: url(../img/sidebar_toggler_icon_darkblue.png);
 }
 
 /* Default Horizontal Menu */
@@ -555,11 +555,11 @@ body{
 
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .sidebar-toggler,
 .page-sidebar .sidebar-toggler {
-  background: url(../../img/sidebar_inline_toggler_icon_darkblue.jpg);
+  background: url(../img/sidebar_inline_toggler_icon_darkblue.jpg);
 }
 /*italo*/
 .sidebar-toggler-logo{
-  background: url(../../img/toggle-w.png);
+  background: url(../img/toggle-w.png);
 }
 
 
