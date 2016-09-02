@@ -453,9 +453,10 @@ Page Header
   border: 0px;
   margin-top: 0px;
 }
-.page-header.navbar .top-menu .navbar-nav > li.dropdown-user.open .dropdown-toggle{ /* italo */
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-user.open .dropdown-toggle, .page-header.navbar .top-menu .navbar-nav > li.dropdown-user:hover .dropdown-toggle{ /* italo */
   border: 0px !important;
   background-color: #004D94 !important;
+  border-radius: 0;
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle > .username {
   display: inline-block;
