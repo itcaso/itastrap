@@ -2779,3 +2779,29 @@ Page Loading
   color:#999;
   font-size: 16px;
 }
+.toggle-menu-apps{
+  float: left;
+  margin:5px 0 0 10px;
+  padding:0;
+}
+.toggle-menu-apps a{
+  display: inline-block;
+  padding:10px;
+  border:1px solid transparent;
+  border-radius: 50px;
+}
+.toggle-menu-apps a:hover{
+  background-color: #7EB1E0;
+  border:1px solid #fff;
+  text-shadow: 1px 1px 4px #333;
+}
+.toggle-menu-apps i{
+  color:#fff;
+}
+.toggle-menu-apps i:before{
+  font-size: 18px;
+}
+.toolbox{
+  width: 100%;
+  display: inline-block;
+}

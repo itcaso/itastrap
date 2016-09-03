@@ -136,7 +136,7 @@ body {
 }
 .form-group.form-md-line-input {
   position: relative;
-  margin: 0 0 35px 0;
+  margin: 0 0 25px 0;
   padding-top: 20px;
 }
 .form-horizontal .form-group.form-md-line-input {
@@ -163,8 +163,10 @@ body {
   color: #333;
   box-shadow: none;
   padding-left: 0;
+  padding-top: 0;
   padding-right: 0;
-  font-size: 16px;
+  font-size: 12px;
+  height: 25px;
 }
 .form-group.form-md-line-input .form-control::-moz-placeholder {
   color: #999;
@@ -235,14 +237,14 @@ body {
   visibility: visible;
   left: 0;
   width: 100%;
-  background: #26A69A;
+  background: #4786D0;
 }
 .form-group.form-md-line-input .form-control.edited:not([readonly]) ~ label, .form-group.form-md-line-input .form-control:focus:not([readonly]) ~ label, .form-group.form-md-line-input .form-control.focus:not([readonly]) ~ label {
   opacity: 1 ;
   filter: alpha(opacity=100) ;
 }
 .form-group.form-md-line-input .form-control.edited:not([readonly]) ~ .help-block, .form-group.form-md-line-input .form-control:focus:not([readonly]) ~ .help-block, .form-group.form-md-line-input .form-control.focus:not([readonly]) ~ .help-block {
-  color: #26A69A;
+  color: #4786D0;
   opacity: 1 ;
   filter: alpha(opacity=100) ;
 }
@@ -252,14 +254,14 @@ body {
   border-bottom: 1px dashed #e5e5e5;
 }
 .form-group.form-md-line-input.form-md-floating-label .form-control ~ label {
-  font-size: 16px;
-  top: 25px;
+  font-size: 12px;
+  top: 20px;
   transition: 0.2s ease all;
   color: #999;
 }
 .form-group.form-md-line-input.form-md-floating-label .form-control[readonly] ~ label, .form-group.form-md-line-input.form-md-floating-label .form-control.edited ~ label, .form-group.form-md-line-input.form-md-floating-label .form-control.form-control-static ~ label, .form-group.form-md-line-input.form-md-floating-label .form-control:focus:not([readonly]) ~ label, .form-group.form-md-line-input.form-md-floating-label .form-control.focus:not([readonly]) ~ label {
   top: 0;
-  font-size: 13px;
+  font-size: 11px;
 }
 .form-group.form-md-line-input.form-md-floating-label .form-control.input-sm ~ label {
   font-size: 14px;
@@ -298,7 +300,7 @@ body {
   margin: 2px 0 0 0;
   opacity: 0 ;
   filter: alpha(opacity=0) ;
-  font-size: 13px;
+  font-size: 12px;
 }
 .form-group.form-md-line-input > .input-icon > i {
   left: 0;
@@ -385,22 +387,22 @@ body {
 .form-group.form-md-line-input.has-success .form-control.form-control-static ~ .form-control-focus:after, .form-group.form-md-line-input.has-success .form-control:focus:not([readonly]) ~ label:after,
 .form-group.form-md-line-input.has-success .form-control:focus:not([readonly]) ~ .form-control-focus:after, .form-group.form-md-line-input.has-success .form-control.focus:not([readonly]) ~ label:after,
 .form-group.form-md-line-input.has-success .form-control.focus:not([readonly]) ~ .form-control-focus:after {
-  background: #26A69A;
+  background: #4786D0;
 }
 .form-group.form-md-line-input.has-success .form-control.edited:not([readonly]) ~ label, .form-group.form-md-line-input.has-success .form-control.form-control-static ~ label, .form-group.form-md-line-input.has-success .form-control:focus:not([readonly]) ~ label, .form-group.form-md-line-input.has-success .form-control.focus:not([readonly]) ~ label {
-  color: #26A69A;
+  color: #4786D0;
 }
 .form-group.form-md-line-input.has-success .form-control.edited:not([readonly]) ~ i, .form-group.form-md-line-input.has-success .form-control.form-control-static ~ i, .form-group.form-md-line-input.has-success .form-control:focus:not([readonly]) ~ i, .form-group.form-md-line-input.has-success .form-control.focus:not([readonly]) ~ i {
-  color: #26A69A;
+  color: #4786D0;
 }
 .form-group.form-md-line-input.has-success .form-control.edited:not([readonly]) ~ .help-block, .form-group.form-md-line-input.has-success .form-control.form-control-static ~ .help-block, .form-group.form-md-line-input.has-success .form-control:focus:not([readonly]) ~ .help-block, .form-group.form-md-line-input.has-success .form-control.focus:not([readonly]) ~ .help-block {
-  color: #26A69A;
+  color: #4786D0;
 }
 .form-group.form-md-line-input.has-success .input-group-addon {
-  color: #26A69A;
+  color: #4786D0;
 }
 .form-horizontal .form-group.form-md-line-input.has-success > label {
-  color: #26A69A;
+  color: #4786D0;
 }
 .form-group.form-md-line-input.has-warning .form-control.edited:not([readonly]) ~ label:after,
 .form-group.form-md-line-input.has-warning .form-control.edited:not([readonly]) ~ .form-control-focus:after, .form-group.form-md-line-input.has-warning .form-control.form-control-static ~ label:after,
@@ -564,7 +566,7 @@ body {
   left: 6px;
   width: 10px;
   height: 20px;
-  border: 2px solid #26A69A;
+  border: 2px solid #4786D0;
   border-top: none;
   border-left: none;
   opacity: 0;
@@ -630,13 +632,13 @@ body {
   border-color: #89C4F4;
 }
 .md-checkbox.has-success label {
-  color: #26A69A;
+  color: #4786D0;
 }
 .md-checkbox.has-success label > .box {
   border-color: #219174;
 }
 .md-checkbox.has-success label > .check {
-  border-color: #26A69A;
+  border-color: #4786D0;
 }
 .md-checkbox.has-warning label {
   color: #ff5722;
@@ -661,7 +663,7 @@ body {
   color: #89C4F4;
 }
 .form-md-checkboxes.has-success > label {
-  color: #26A69A;
+  color: #4786D0;
 }
 .form-md-checkboxes.has-warning > label {
   color: #ff5722;
@@ -770,7 +772,7 @@ body {
   left: 5px;
   width: 10px;
   height: 10px;
-  background: #26A69A;
+  background: #4786D0;
   opacity: 0;
   z-index: 6;
   border-radius: 50% !important;
@@ -828,13 +830,13 @@ body {
   background: #89C4F4;
 }
 .md-radio.has-success label {
-  color: #26A69A;
+  color: #4786D0;
 }
 .md-radio.has-success label > .box {
   border-color: #219174;
 }
 .md-radio.has-success label > .check {
-  background: #26A69A;
+  background: #4786D0;
 }
 .md-radio.has-warning label {
   color: #ff5722;
@@ -859,7 +861,7 @@ body {
   color: #89C4F4;
 }
 .form-md-radios.has-success > label {
-  color: #26A69A;
+  color: #4786D0;
 }
 .form-md-radios.has-warning > label {
   color: #ff5722;
@@ -1682,7 +1684,7 @@ li [class*=" icon-"].icon-large {
 }
 
 .icon-state-success {
-  color: #26A69A;
+  color: #4786D0;
 }
 
 .icon-state-info {
@@ -1807,7 +1809,7 @@ Customized Bootstrap Alerts
 Bootstrap Alerts
 ***/
 .alert-success {
-  background-color: #26A69A;
+  background-color: #4786D0;
   border-color: #219174;
   color: #d6f5f3;
 }
@@ -1909,7 +1911,7 @@ Custom Bootstrap Badges
 }
 
 .badge-success {
-  background-color: #26A69A;
+  background-color: #4786D0;
   background-image: none;
 }
 
@@ -2080,7 +2082,7 @@ Customized Bootstrap Buttons
 
 .btn-success {
   color: #fff;
-  background-color: #26A69A;
+  background-color: #4786D0;
   border-color: #219187;
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {
@@ -2104,11 +2106,11 @@ Customized Bootstrap Buttons
   background-image: none;
 }
 .btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled]:active, .btn-success[disabled].active, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active {
-  background-color: #26A69A;
+  background-color: #4786D0;
   border-color: #219187;
 }
 .btn-success .badge {
-  color: #26A69A;
+  color: #4786D0;
   background-color: #fff;
 }
 
@@ -3558,7 +3560,7 @@ label {
 .has-success .checkbox,
 .has-success .radio-inline,
 .has-success .checkbox-inline {
-  color: #26A69A;
+  color: #4786D0;
 }
 .has-success .form-control {
   border-color: #219174;
@@ -3573,10 +3575,10 @@ label {
 .has-success .input-group-addon {
   color: #d6f5f3;
   border-color: #219174;
-  background-color: #26A69A;
+  background-color: #4786D0;
 }
 .has-success .input-group-addon > i {
-  color: #26A69A;
+  color: #4786D0;
 }
 .has-success .form-control-feedback {
   color: #d6f5f3;
@@ -3784,7 +3786,7 @@ Input icons
   z-index: 10055;
 }
 .has-success .input-icon > i {
-  color: #26A69A;
+  color: #4786D0;
 }
 .has-warning .input-icon > i {
   color: #ff5722;
@@ -3853,7 +3855,7 @@ h1 .label, h2 .label, h3 .label, h4 .label, h5 .label, h6 .label {
 }
 
 .label-success {
-  background-color: #26A69A;
+  background-color: #4786D0;
 }
 .label-success[href]:hover, .label-success[href]:focus {
   background-color: #1c7d74;
@@ -3908,7 +3910,7 @@ Text states
 }
 
 .text-success {
-  color: #26A69A;
+  color: #4786D0;
 }
 
 .text-info {
@@ -3958,7 +3960,7 @@ Customized List Group
 
 .list-group .list-group-item-success {
   color: #d6f5f3;
-  background-color: #26A69A;
+  background-color: #4786D0;
 }
 .list-group a.list-group-item-success {
   color: #d6f5f3;
@@ -4419,7 +4421,7 @@ Notes
   border-color: #186853;
 }
 .note.note-success.note-shadow {
-  background-color: #26a69a;
+  background-color: #4786D0;
   border-color: #186853;
   box-shadow: 5px 5px rgba(25, 108, 86, 0.2);
 }
@@ -4560,7 +4562,7 @@ Customized Bootstrap Panels
 }
 .panel-success > .panel-heading {
   color: #d6f5f3;
-  background-color: #26A69A;
+  background-color: #4786D0;
   border-color: #219174;
 }
 .panel-success > .panel-heading + .panel-collapse .panel-body {
@@ -4657,7 +4659,7 @@ name .popover .popover-content,
 .popover.name .popover-title,
 name .popover .popover-content,
 .popover.name .popover-content {
-  color: #26A69A;
+  color: #4786D0;
 }
 
 .popover.name .popover-title,
@@ -5194,7 +5196,7 @@ Customized Progress Bars
 }
 
 .progress > .progress-bar-success {
-  background-color: #26A69A;
+  background-color: #4786D0;
 }
 .progress-striped .progress > .progress-bar-success {
   background-image: none;
@@ -5777,7 +5779,7 @@ Default table
 .table > tfoot > tr > th.success,
 .table > tfoot > tr.success > td,
 .table > tfoot > tr.success > th {
-  background: #26A69A;
+  background: #4786D0;
   color: #d6f5f3;
 }
 
@@ -6083,7 +6085,7 @@ Custom tables
 }
 
 .table-advance td.highlight div.success {
-  border-left: 2px solid #26A69A;
+  border-left: 2px solid #4786D0;
 }
 
 .table-advance td.highlight div.info {
@@ -8163,7 +8165,7 @@ Green Default
 /* Button */
 .green.btn {
   color: #FFFFFF;
-  background-color: #26a69a;
+  background-color: #4786D0;
 }
 .green.btn:hover, .green.btn:focus, .green.btn:active, .green.btn.active {
   color: #FFFFFF;
@@ -8184,22 +8186,22 @@ Green Default
   background-image: none;
 }
 .green.btn.disabled, .green.btn.disabled:hover, .green.btn.disabled:focus, .green.btn.disabled:active, .green.btn.disabled.active, .green.btn[disabled], .green.btn[disabled]:hover, .green.btn[disabled]:focus, .green.btn[disabled]:active, .green.btn[disabled].active, fieldset[disabled] .green.btn, fieldset[disabled] .green.btn:hover, fieldset[disabled] .green.btn:focus, fieldset[disabled] .green.btn:active, fieldset[disabled] .green.btn.active {
-  background-color: #26a69a;
+  background-color: #4786D0;
 }
 .green.btn .badge {
-  color: #26a69a;
+  color: #4786D0;
   background-color: #FFFFFF;
 }
 
 /* Button Strip */
 .btn.green-stripe {
-  border-left: 3px solid #26a69a;
+  border-left: 3px solid #4786D0;
 }
 
 /* Portlet */
 .portlet > .portlet-body.green,
 .portlet.green {
-  background-color: #26a69a;
+  background-color: #4786D0;
 }
 
 .portlet.solid.green > .portlet-title,
@@ -8237,7 +8239,7 @@ Green Default
   border-top: 0;
 }
 .portlet.box.green > .portlet-title {
-  background-color: #26a69a;
+  background-color: #4786D0;
 }
 .portlet.box.green > .portlet-title > .caption {
   color: #FFFFFF;
@@ -8262,7 +8264,7 @@ Green Default
 
 /* Statistic Block */
 .dashboard-stat.green {
-  background-color: #26a69a;
+  background-color: #4786D0;
 }
 .dashboard-stat.green.dashboard-stat-light:hover {
   background-color: #22958b;
@@ -8287,19 +8289,19 @@ Green Default
 
 /* General Element */
 .bg-green {
-  border-color: #26a69a !important;
+  border-color: #4786D0 !important;
   background-image: none !important;
-  background-color: #26a69a !important;
+  background-color: #4786D0 !important;
   color: #FFFFFF !important;
 }
 
 /* General Text & Icon Font Colors */
 .font-green {
-  color: #26a69a !important;
+  color: #4786D0 !important;
 }
 
 .progress-bar.green {
-  background: #26a69a !important;
+  background: #4786D0 !important;
   color: #FFFFFF !important;
 }
 

@@ -137,7 +137,11 @@
 				</ul>
 			</li>
 		</ul>
-
+		<div class="toggle-menu-apps">
+			<a href="#">
+				<i class="fa fa-list"></i>
+			</a>
+		</div>
 		<!-- BEGIN TOP NAVIGATION MENU -->
 		<div class="top-menu">
 			<ul class="nav navbar-nav pull-right">
@@ -270,6 +274,7 @@
 				<!-- END QUICK SIDEBAR TOGGLER -->
 			</ul>
 		</div>
+
 		<!-- END TOP NAVIGATION MENU -->
 	</div>
 	<!-- END HEADER INNER -->
@@ -281,16 +286,8 @@
 <div class="page-container">
 	<!-- BEGIN SIDEBAR -->
 	<div class="page-sidebar-wrapper">
-		<!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
-		<!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
 		<div class="page-sidebar navbar-collapse collapse">
 			<!-- BEGIN SIDEBAR MENU -->
-			<!-- DOC: Apply "page-sidebar-menu-light" class right after "page-sidebar-menu" to enable light sidebar menu style(without borders) -->
-			<!-- DOC: Apply "page-sidebar-menu-hover-submenu" class right after "page-sidebar-menu" to enable hoverable(hover vs accordion) sub menu mode -->
-			<!-- DOC: Apply "page-sidebar-menu-closed" class right after "page-sidebar-menu" to collapse("page-sidebar-closed" class must be applied to the body element) the sidebar sub menu mode -->
-			<!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
-			<!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
-			<!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
 			<ul class="page-sidebar-menu page-sidebar-menu-light" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
 				<li class="start active open">
 					<a href="javascript:;">
@@ -302,7 +299,7 @@
 					<ul class="sub-menu">
 						<li  class="active">
 							<a href="default.html">
-							<i class="icon-bar-chart"></i>
+							<i class="icon-chart"></i>
 							Default Dashboard</a>
 						</li>
 						<li>
@@ -582,18 +579,6 @@
 						</li>
 					</ul>
 				</li>
-
-				
-
-				<!-- BEGIN ANGULARJS LINK -->
-				<li class="tooltips" data-container="body" data-placement="right" data-html="true" data-original-title="AngularJS version demo">
-					<a href="angularjs" target="_blank">
-					<i class="icon-paper-plane"></i>
-					<span class="title">
-					AngularJS Version </span>
-					</a>
-				</li>
-				<!-- END ANGULARJS LINK -->
 				<li class="heading">
 					<h3 class="uppercase">Features</h3>
 				</li>
@@ -687,179 +672,6 @@
 				</li>
 				<li>
 					<a href="javascript:;">
-					<i class="icon-wallet"></i>
-					<span class="title">Portlets</span>
-					<span class="arrow "></span>
-					</a>
-					<ul class="sub-menu">
-						<li>
-							<a href="portlet_general.html">
-							General Portlets</a>
-						</li>
-						<li>
-							<a href="portlet_general2.html">
-							<span class="badge badge-roundless badge-danger">new</span>New Portlets #1</a>
-						</li>
-						<li>
-							<a href="portlet_general3.html">
-							<span class="badge badge-roundless badge-danger">new</span>New Portlets #2</a>
-						</li>
-						<li>
-							<a href="portlet_ajax.html">
-							Ajax Portlets</a>
-						</li>
-						<li>
-							<a href="portlet_draggable.html">
-							Draggable Portlets</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="javascript:;">
-					<i class="icon-bar-chart"></i>
-					<span class="title">Charts</span>
-					<span class="arrow "></span>
-					</a>
-					<ul class="sub-menu">
-						<li>
-							<a href="charts_amcharts.html">
-							amChart</a>
-						</li>
-						<li>
-							<a href="charts_flotcharts.html">
-							Flotchart</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="javascript:;">
-					<i class="icon-docs"></i>
-					<span class="title">Pages</span>
-					<span class="arrow "></span>
-					</a>
-					<ul class="sub-menu">
-						<li>
-							<a href="page_timeline.html">
-							<i class="icon-paper-plane"></i>
-							<span class="badge badge-warning">2</span>New Timeline</a>
-						</li>
-						<li>
-							<a href="extra_profile.html">
-							<i class="icon-user-following"></i>
-							<span class="badge badge-success badge-roundless">new</span>New User Profile</a>
-						</li>
-						<li>
-							<a href="page_todo.html">
-							<i class="icon-check"></i>
-							Todo</a>
-						</li>
-						<li>
-							<a href="inbox.html">
-							<i class="icon-envelope"></i>
-							<span class="badge badge-danger">4</span>Inbox</a>
-						</li>
-						<li>
-							<a href="extra_faq.html">
-							<i class="icon-question"></i>
-							FAQ</a>
-						</li>
-						<li>
-							<a href="page_calendar.html">
-							<i class="icon-calendar"></i>
-							<span class="badge badge-danger">14</span>Calendar</a>
-						</li>
-						<li>
-							<a href="page_coming_soon.html">
-							<i class="icon-flag"></i>
-							Coming Soon</a>
-						</li>
-						<li>
-							<a href="page_blog.html">
-							<i class="icon-speech"></i>
-							Blog</a>
-						</li>
-						<li>
-							<a href="page_blog_item.html">
-							<i class="icon-link"></i>
-							Blog Post</a>
-						</li>
-						<li>
-							<a href="page_news.html">
-							<i class="icon-eye"></i>
-							<span class="badge badge-success">9</span>News</a>
-						</li>
-						<li>
-							<a href="page_news_item.html">
-							<i class="fa fa-bell"></i>
-							News View</a>
-						</li>
-						<li>
-							<a href="page_timeline_old.html">
-							<i class="icon-paper-plane"></i>
-							<span class="badge badge-warning">2</span>Old Timeline</a>
-						</li>
-						<li>
-							<a href="extra_profile_old.html">
-							<i class="icon-user"></i>
-							Old User Profile</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="javascript:;">
-					<i class="icon-present"></i>
-					<span class="title">Extra</span>
-					<span class="arrow "></span>
-					</a>
-					<ul class="sub-menu">
-						<li>
-							<a href="page_about.html">
-							About Us</a>
-						</li>
-						<li>
-							<a href="page_contact.html">
-							Contact Us</a>
-						</li>
-						<li>
-							<a href="extra_search.html">
-							Search Results</a>
-						</li>
-						<li>
-							<a href="extra_invoice.html">
-							Invoice</a>
-						</li>
-						<li>
-							<a href="page_portfolio.html">
-							Portfolio</a>
-						</li>
-						<li>
-							<a href="extra_pricing_table.html">
-							Pricing Tables</a>
-						</li>
-						<li>
-							<a href="extra_404_option1.html">
-							404 Page Option 1</a>
-						</li>
-						<li>
-							<a href="extra_404_option2.html">
-							404 Page Option 2</a>
-						</li>
-						<li>
-							<a href="extra_404_option3.html">
-							404 Page Option 3</a>
-						</li>
-						<li>
-							<a href="extra_500_option1.html">
-							500 Page Option 1</a>
-						</li>
-						<li>
-							<a href="extra_500_option2.html">
-							500 Page Option 2</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="javascript:;">
 					<i class="icon-folder"></i>
 					<span class="title">Multi Level Menu</span>
 					<span class="arrow "></span>
@@ -921,85 +733,6 @@
 						</li>
 					</ul>
 				</li>
-				<li>
-					<a href="javascript:;">
-					<i class="icon-user"></i>
-					<span class="title">Login Options</span>
-					<span class="arrow "></span>
-					</a>
-					<ul class="sub-menu">
-						<li>
-							<a href="login.html">
-							Login Form 1</a>
-						</li>
-						<li>
-							<a href="login_2.html">
-							Login Form 2</a>
-						</li>
-						<li>
-							<a href="login_3.html">
-							Login Form 3</a>
-						</li>
-						<li>
-							<a href="login_soft.html">
-							Login Form 4</a>
-						</li>
-						<li>
-							<a href="extra_lock.html">
-							Lock Screen 1</a>
-						</li>
-						<li>
-							<a href="extra_lock2.html">
-							Lock Screen 2</a>
-						</li>
-					</ul>
-				</li>
-				<li class="heading">
-					<h3 class="uppercase">More</h3>
-				</li>
-				<li>
-					<a href="javascript:;">
-					<i class="icon-logout"></i>
-					<span class="title">Quick Sidebar</span>
-					<span class="arrow "></span>
-					</a>
-					<ul class="sub-menu">
-						<li>
-							<a href="quick_sidebar_push_content.html">
-							Push Content</a>
-						</li>
-						<li>
-							<a href="quick_sidebar_over_content.html">
-							Over Content</a>
-						</li>
-						<li>
-							<a href="quick_sidebar_over_content_transparent.html">
-							Over Content & Transparent</a>
-						</li>
-						<li>
-							<a href="quick_sidebar_on_boxed_layout.html">
-							Boxed Layout</a>
-						</li>
-					</ul>
-				</li>
-
-				<li class="last ">
-					<a href="javascript:;">
-					<i class="icon-pointer"></i>
-					<span class="title">Maps</span>
-					<span class="arrow "></span>
-					</a>
-					<ul class="sub-menu">
-						<li>
-							<a href="maps_google.html">
-							Google Maps</a>
-						</li>
-						<li>
-							<a href="maps_vector.html">
-							Vector Maps</a>
-						</li>
-					</ul>
-				</li>
 			</ul>
 			<!-- END SIDEBAR MENU -->
 		</div>
@@ -1035,10 +768,21 @@
 				</ul>
 			</div>
 			<!-- END PAGE HEADER-->
+			<div class="clearfix">
+			</div>
 			<div class="row">
 				<div class="col-lg-12 col-md-12">
 					<div class="toolbox">
-						hola
+						<div class="col-md-4">
+							<div class="form-group form-md-line-input form-md-floating-label">
+								<div class="input-icon right">
+									<input type="text" class="form-control" id="form_control_1">
+									<label for="form_control_1">Regular input</label>
+									<span class="help-block">Some help goes here...</span>
+									<i class="icon-user"></i>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

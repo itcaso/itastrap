@@ -454,11 +454,12 @@ body{
 }
 .page-sidebar-closed .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu:hover .sub-menu, .page-sidebar-closed
 .page-sidebar .page-sidebar-menu:hover .sub-menu {
-  background-color: #364150;
+  /*background-color: #364150;*/
+  background-color: #eee;
 }
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li > a,
 .page-sidebar .page-sidebar-menu .sub-menu > li > a {
-  color: #b4bcc8;
+  color: #858585;
 }
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li > a > i,
 .page-sidebar .page-sidebar-menu .sub-menu > li > a > i {
@@ -797,13 +798,13 @@ Page Footer
   }
 
   .page-sidebar-menu.page-sidebar-menu-closed > li:hover {
-    box-shadow: 5px 5px rgba(44, 53, 66, 0.2);
+    /*box-shadow: 5px 5px rgba(44, 53, 66, 0.2);*/
   }
   .page-sidebar-menu.page-sidebar-menu-closed > li:hover.sidebar-toggler-wrapper, .page-sidebar-menu.page-sidebar-menu-closed > li:hover.sidebar-search-wrapper {
     box-shadow: none;
   }
   .page-sidebar-menu.page-sidebar-menu-closed > li:hover > .sub-menu {
-    box-shadow: 5px 5px rgba(44, 53, 66, 0.2);
+    /*box-shadow: 5px 5px rgba(44, 53, 66, 0.2);*/
   }
   .page-sidebar-menu.page-sidebar-menu-closed > li:hover > .sub-menu.sidebar-toggler-wrapper, .page-sidebar-menu.page-sidebar-menu-closed > li:hover > .sub-menu.sidebar-search-wrapper {
     box-shadow: none;
@@ -814,7 +815,7 @@ Page Footer
     padding: 0;
     margin-top: 15px;
     margin-bottom: 15px;
-    border-top: 1px solid #3d4957 !important;
+    border-top: 1px solid #666 !important;
   }
 
   /* Fixed Sidebar */
@@ -949,10 +950,14 @@ body {
 }
 
 .page-sidebar-menu .title{
-  font-size: 18px;
+  font-size: 15px;
   color:#333;
 }
-.page-sidebar .page-sidebar-menu > li:hover > a .title, .page-sidebar .page-sidebar-menu > li:hover a i{
+.page-sidebar .page-sidebar-menu > li:hover > a .title, .page-sidebar .page-sidebar-menu > li:hover a i, .page-sidebar .page-sidebar-menu > li:hover a i, .page-sidebar .page-sidebar-menu > li:hover > a .arrow:before{
+  color:#fff ;
+}
+
+.page-sidebar .page-sidebar-menu .sub-menu > li > a:hover > i[class^="icon-"], .page-sidebar .page-sidebar-menu .sub-menu > li > a:hover > i[class*="icon-"]{
   color:#fff;
 }
 .page-sidebar .page-sidebar-menu > li.active:hover > a .title, .page-sidebar .page-sidebar-menu > li.open:hover > a .title, .page-sidebar .page-sidebar-menu > li.open:hover > a i{/*italo*/
