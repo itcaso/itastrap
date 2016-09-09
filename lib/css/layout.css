@@ -2162,9 +2162,11 @@ Page content
   /* subtitle */
 }
 .page-title h3 i{
-  font-size: 24px;
+  font-size: 27px !important;
+  line-height: 27px !important;
   margin-right: 5px;
 }
+
 .page-title small {
   font-size: 14px;
   letter-spacing: 0px;
@@ -2790,7 +2792,7 @@ Page Loading
   border:1px solid transparent;
   border-radius: 50px;
 }
-.toggle-menu-apps a:hover{
+.toggle-menu-apps a:hover, .toggle-menu-apps.open > a{
   background-color: #7EB1E0;
   border:1px solid #fff;
   text-shadow: 1px 1px 4px #333;
@@ -2804,4 +2806,75 @@ Page Loading
 .toolbox{
   width: 100%;
   display: inline-block;
+  background-color: #fff;
+  border:1px solid #eee;
+  padding: 5px 0;
+  box-shadow: 1px 1px 3px #ccc;
+  margin-bottom: 20px;
+}
+.toggle-menu-apps.dropdown-extended .dropdown-menu {
+  margin-top: 9px;
+  min-width: 160px;
+  max-width: 475px;
+  width: 390px;
+  z-index: 9995;
+  border-radius: 0;
+  right: 0;
+  left: auto;
+}
+.toggle-menu-apps.dropdown .dropdown-menu:before{
+    position: absolute;
+    top: -7px;
+    right: 18px;
+    display: inline-block !important;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #eee;
+    border-left: 7px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    content: '';
+    right: 12px;
+    left: auto;
+}
+.toggle-menu-apps.dropdown .dropdown-menu:after{
+  border-bottom-color: #eaedf2;
+  position: absolute;
+  top: -6px;
+  right: 19px;
+  display: inline-block !important;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #fff;
+  border-left: 6px solid transparent;
+  content: '';
+  right: 13px;
+  left: auto;
+}
+.toggle-menu-apps.dropdown .tiles{
+  padding: 0 0 0 10px;
+}
+.toggle-menu-apps.dropdown .tiles .tile {
+    display: inline-block;
+    height: 100px;
+    width: 100px !important;
+    position: relative;
+    letter-spacing: 0.02em;
+}
+.toggle-menu-apps.dropdown .tiles .tile .name{
+  font-size: 10px;
+  line-height: 12px;
+}
+.toggle-menu-apps.dropdown .tiles .tile .tile-body > i{
+  margin: auto;
+  margin-top: 5px;
+  font-size: 40px;
+  line-height: 40px;
+}
+.toggle-menu-apps.dropdown .tiles .tile .tile-body > i:before{
+  font-size: 40px;
+}
+.toggle-menu-apps.dropdown .tiles .title_tiles{
+  margin-bottom: 10px;
+}
+.toggle-menu-apps.dropdown .tiles .title_tiles h2{
+  font-size: 15px;
+  line-height: 15px;
 }
